@@ -5,7 +5,7 @@ class CreatePokemons < ActiveRecord::Migration[5.1]
       t.integer :dex_num
       t.string :dex_entry
       t.string :type_primary
-      t.secondary :type
+      t.string :type_secondary
 
       t.timestamps
     end
