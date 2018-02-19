@@ -10,7 +10,7 @@ application up and running.
 
 ### Database creation
 run command `rake db:create`
-### Database initialization
+### Database initialisation
 run command `rake db:migrate`
 ### How to run the test suite
 run command `rails server` and then go to localhost:
