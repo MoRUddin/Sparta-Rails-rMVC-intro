@@ -1,0 +1,8 @@
+<p> <a href="/new">New Pokemon</a> </p>
+<h1>Pokemon Index</h1>
+<% @pokemon.each do |pokermans| %>
+<div class="">
+  <a href="/<%= pokermans.id %>"><%= pokermans.name %></a>
+  <p><%= pokermans.dex_entry %></p>
+</div>
+<% end %>

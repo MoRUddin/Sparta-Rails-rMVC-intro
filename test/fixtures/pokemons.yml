@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  dex_num: 1
+  dex_entry: MyString
+  type_primary: MyString
+  type: 
+
+two:
+  name: MyString
+  dex_num: 1
+  dex_entry: MyString
+  type_primary: MyString
+  type: 
